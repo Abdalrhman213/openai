@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج الذكاء الاصطناعي</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+</head>
+<body>
+    <header>
+        <h1>نموذج الذكاء الاصطناعي</h1>
+    </header>
+    <main>
+        <section>
+            <h2>تدريب النموذج</h2>
+            <button id="trainButton">تدريب النموذج</button>
+            <button id="updateButton">تحديث النموذج ببيانات جديدة</button>
+        </section>
+        <section id="output">
+            <h3>النتائج</h3>
+            <p id="status">لم يتم تدريب النموذج بعد.</p>
+        </section>
+        <section id="userList">
+            <h3>قائمة المستخدمين</h3>
+            <ul id="users"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>حقوق الطبع والنشر &copy; 2023. جميع الحقوق محفوظة.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
